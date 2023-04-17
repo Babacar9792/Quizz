@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 60%;
+    /* background-color: red; */
+    border: 0.1em solid;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.reponse {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 0.1em solid; */
+
+}
+
+.reponse div {
+    display: flex;
+    gap: 1em;
+    width: 90%;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.next {
+    width: 100%;
+    height: 22%;
+
+}
+
+.next button {
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+    font-size: 1.3rem;
+    border-radius: 1em;
+    background-color: #844cac;
+    color: white;
+}
+
+h3 {
+    height: 20%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+
+.second-child {
+    position: absolute;
+    width: 40%;
+    height: 12%;
+
+    border: 0.1em solid;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#play-again {
+    width: 100%;
+    height: 60%;
+    border-radius: 1em;
+    font-size: 1.4rem;
+    background-color: #844cac;
+    color: white;
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+.divError
+{
+
+    padding: 1em;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+    background-color: red;
+    border: 0.1em solid;
+    position: absolute;
+    top: 0;
+    left: 40%;
+    text-align: center;
+    transform: scaleY(0);
+    transition-property: transform;
+    transition-duration: 2s;
+
+}
